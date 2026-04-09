@@ -1,0 +1,40 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ECFDF5"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="shadow" x="-40" y="-40" width="1680" height="1080" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" rx="64" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="220" y="190" width="1160" height="620" rx="64" fill="white" stroke="#0F172A" stroke-opacity="0.06"/>
+    <text x="280" y="275" fill="#0F172A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="800" font-size="34">MotoGolf " MG-300</text>
+    <text x="280" y="320" fill="#475569" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="700" font-size="18">Nuevo " 4 plazas " 48V</text>
+
+    <g transform="translate(280,370)">
+      <rect x="0" y="0" width="1040" height="380" rx="56" fill="#ECFDF5"/>
+      <rect x="70" y="140" width="900" height="124" rx="54" fill="url(#body)"/>
+      <rect x="310" y="92" width="420" height="72" rx="30" fill="#111827"/>
+      <rect x="390" y="56" width="260" height="48" rx="24" fill="#0F172A"/>
+
+      <circle cx="220" cy="282" r="56" fill="#0B1220"/>
+      <circle cx="220" cy="282" r="28" fill="#111827"/>
+      <circle cx="840" cy="282" r="56" fill="#0B1220"/>
+      <circle cx="840" cy="282" r="28" fill="#111827"/>
+      <circle cx="360" cy="282" r="56" fill="#0B1220"/>
+      <circle cx="360" cy="282" r="28" fill="#111827"/>
+      <circle cx="980" cy="282" r="56" fill="#0B1220"/>
+      <circle cx="980" cy="282" r="28" fill="#111827"/>
+
+      <rect x="120" y="92" width="70" height="30" rx="15" fill="#34D399"/>
+      <rect x="880" y="92" width="70" height="30" rx="15" fill="#60A5FA"/>
+    </g>
+  </g>
+</svg>

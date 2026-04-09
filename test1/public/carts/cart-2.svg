@@ -1,0 +1,34 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="1" stop-color="#FEF2F2"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1F2937"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="shadow" x="-40" y="-40" width="1680" height="1080" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#111827" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" rx="64" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="220" y="190" width="1160" height="620" rx="64" fill="white" stroke="#111827" stroke-opacity="0.06"/>
+    <text x="280" y="275" fill="#111827" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="800" font-size="34">MotoGolf " MG-200</text>
+    <text x="280" y="320" fill="#6B7280" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="700" font-size="18">Usado " 2 plazas " 48V</text>
+
+    <g transform="translate(280,370)">
+      <rect x="0" y="0" width="1040" height="380" rx="56" fill="#FFF7ED"/>
+      <rect x="120" y="146" width="800" height="118" rx="54" fill="url(#body)"/>
+      <rect x="380" y="92" width="280" height="70" rx="30" fill="#1F2937"/>
+      <rect x="430" y="56" width="180" height="48" rx="24" fill="#111827"/>
+      <circle cx="270" cy="282" r="56" fill="#111827"/>
+      <circle cx="270" cy="282" r="28" fill="#0B1220"/>
+      <circle cx="890" cy="282" r="56" fill="#111827"/>
+      <circle cx="890" cy="282" r="28" fill="#0B1220"/>
+      <rect x="200" y="92" width="70" height="30" rx="15" fill="#FB7185"/>
+      <rect x="800" y="92" width="70" height="30" rx="15" fill="#F59E0B"/>
+    </g>
+  </g>
+</svg>

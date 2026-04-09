@@ -1,0 +1,77 @@
+
+
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.45" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(370 260) rotate(32) scale(650 450)">
+      <stop stop-color="#34D399" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#34D399" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1230 380) rotate(140) scale(720 520)">
+      <stop stop-color="#60A5FA" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <filter id="shadow" x="-30" y="-30" width="1660" height="1260" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1200" rx="64" fill="url(#bg)"/>
+  <rect width="1600" height="1200" rx="64" fill="url(#glow1)"/>
+  <rect width="1600" height="1200" rx="64" fill="url(#glow2)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="140" y="140" width="1320" height="920" rx="56" fill="url(#card)" stroke="#FFFFFF" stroke-opacity="0.10"/>
+
+    <g opacity="0.95">
+      <rect x="220" y="220" width="420" height="120" rx="34" fill="#0B1220" stroke="#FFFFFF" stroke-opacity="0.12"/>
+      <circle cx="270" cy="280" r="22" fill="#34D399"/>
+      <text x="312" y="290" fill="#E5E7EB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="800" font-size="34" letter-spacing="-0.02em">MotoGolf</text>
+      <text x="312" y="320" fill="#94A3B8" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="600" font-size="18">Cat�logo de carritos</text>
+    </g>
+
+    <g>
+      <rect x="220" y="390" width="580" height="210" rx="44" fill="#0B1220" stroke="#FFFFFF" stroke-opacity="0.10"/>
+      <text x="270" y="455" fill="#E5E7EB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="800" font-size="36" letter-spacing="-0.02em">Elige tu carrito</text>
+      <text x="270" y="500" fill="#94A3B8" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="600" font-size="20">Detalles completos, disponibilidad y cotizaci�n</text>
+      <rect x="270" y="525" width="190" height="54" rx="999" fill="#34D399"/>
+      <text x="310" y="560" fill="#052012" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="800" font-size="18">Ver cat�logo</text>
+      <rect x="470" y="525" width="250" height="54" rx="999" fill="#0F172A" stroke="#FFFFFF" stroke-opacity="0.12"/>
+      <text x="512" y="560" fill="#E5E7EB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="800" font-size="18">Contacto: 5525226360</text>
+    </g>
+
+    <g>
+      <rect x="860" y="340" width="520" height="560" rx="56" fill="#0B1220" stroke="#FFFFFF" stroke-opacity="0.10"/>
+      <rect x="920" y="400" width="400" height="220" rx="38" fill="#0F172A" stroke="#FFFFFF" stroke-opacity="0.10"/>
+      <rect x="930" y="410" width="380" height="200" rx="34" fill="#111827"/>
+
+      <g transform="translate(930,420)">
+        <rect x="0" y="0" width="380" height="200" rx="34" fill="#0B1220"/>
+        <circle cx="64" cy="132" r="26" fill="#111827"/>
+        <circle cx="312" cy="132" r="26" fill="#111827"/>
+        <rect x="80" y="86" width="220" height="64" rx="24" fill="#0F172A"/>
+        <rect x="138" y="52" width="104" height="36" rx="18" fill="#111827"/>
+        <rect x="70" y="74" width="26" height="20" rx="10" fill="#34D399"/>
+        <rect x="284" y="74" width="26" height="20" rx="10" fill="#60A5FA"/>
+      </g>
+
+      <g opacity="0.9">
+        <rect x="920" y="650" width="190" height="82" rx="28" fill="#0F172A" stroke="#FFFFFF" stroke-opacity="0.10"/>
+        <text x="950" y="692" fill="#E5E7EB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="800" font-size="18">2 plazas</text>
+        <text x="950" y="718" fill="#94A3B8" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="700" font-size="14">Autonom�a 40 km</text>
+
+        <rect x="1130" y="650" width="190" height="82" rx="28" fill="#0F172A" stroke="#FFFFFF" stroke-opacity="0.10"/>
+        <text x="1160" y="692" fill="#E5E7EB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="800" font-size="18">48V</text>
+        <text x="1160" y="718" fill="#94A3B8" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="700" font-size="14">Bater�a</text>
+      </g>
+    </g>
+  </g>
+</svg>
